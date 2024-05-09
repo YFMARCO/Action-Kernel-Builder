@@ -6,12 +6,12 @@ on:
       KERNEL_URL:
         description: 'Enter your Kernel Link'
         required: true
-        default: 'https://github.com/YFMARCO/android_kernel_samsung_sm6115yy'
+        default: 'https://github.com/YFMARCO/android_kernel_samsung_sm611599'
 
       KERNEL_BRANCH:
         description: 'Enter your Kernel branch'
         required: true
-        default: 'kernelsu'
+        default: 'lineage-21'
          
       KERNEL_DEFCONFIG:
         description: 'Enter the defconfig available in your kernel'
