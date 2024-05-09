@@ -6,12 +6,12 @@ on:
       KERNEL_URL:
         description: 'Enter your Kernel Link'
         required: true
-        default: 'https://github.com/yuzumi86/kernel_realme_even'
+        default: 'https://github.com/YFMARCO/android_kernel_samsung_sm6115yy'
 
       KERNEL_BRANCH:
         description: 'Enter your Kernel branch'
         required: true
-        default: 'OSS-RUI2'
+        default: 'kernelsu'
          
       KERNEL_DEFCONFIG:
         description: 'Enter the defconfig available in your kernel'
@@ -21,7 +21,7 @@ on:
       KBUILD_USER:
         description: 'Enter the custom username build available in your kernel'
         required: true
-        default: 'cumaRull'
+        default: 'YFMARCO'
 
       KBUILD_HOST:
         description: 'Enter the user custom host name available in your kernel'
@@ -43,15 +43,15 @@ on:
       WITH_KERNEL_SU:
         description: 'With kernelsu?, Dont activate it if the kernel doesnt support it '
         required: true
-        default: 'false'
+        default: 'true'
       ZIP_NAME:
         description: 'Name for the zip file'
         required: true
-        default: 'TridentNothDeath-Even' 
+        default: 'SpartaKernel' 
       ANYKERNEL_URL:
         description: 'YOUR ANYKERNEL LINK'
         required: true
-        default: 'https://github.com/cumaRull/AnyKernel3.git -b master'
+        default: 'https://github.com/YFMARCO/AnyKernel3.git -b gta4l'
       
                   
       
