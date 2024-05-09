@@ -16,7 +16,7 @@ on:
       KERNEL_DEFCONFIG:
         description: 'Enter the defconfig available in your kernel'
         required: true
-        default: 'even_defconfig'
+        default: 'gta4l_eur_open_defconfig'
 
       KBUILD_USER:
         description: 'Enter the custom username build available in your kernel'
