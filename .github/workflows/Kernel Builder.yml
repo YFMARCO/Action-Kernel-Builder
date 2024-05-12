@@ -6,7 +6,7 @@ on:
       KERNEL_URL:
         description: 'Enter your Kernel Link'
         required: true
-        default: 'https://github.com/YFMARCO/android_kernel_samsung_sm611599'
+        default: 'https://github.com/YFMARCO/android_kernel_samsung_sm6115'
 
       KERNEL_BRANCH:
         description: 'Enter your Kernel branch'
@@ -31,7 +31,13 @@ on:
       CLANG_URL:
         description: 'Clang Url'
         required: true
-        default: 'https://github.com/ZyCromerZ/Clang/releases/download/19.0.0git-20240227-release/Clang-19.0.0git-20240227.tar.gz'
+        default: 'https://github.com/YFMARCO/android_prebuilts_clang_host_linux-x86_clang-r510928.git'
+
+      CLANG_BRANCH:
+        description: 'Clang BRANCH'
+        required: true
+        default: '14'
+        
    #   AARCH64_URL:
   #      description: 'Arrch64-GCC'
   #      required: true
