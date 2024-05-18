@@ -31,12 +31,12 @@ on:
       CLANG_URL:
         description: 'Clang Url'
         required: true
-        default: 'https://github.com/YFMARCO/android_prebuilts_clang_host_linux-x86_clang-r510928.git'
+        default: 'https://github.com/kdrag0n/proton-clang.git'
 
       CLANG_BRANCH:
         description: 'Clang BRANCH'
         required: true
-        default: '14'
+        default: 'master'
         
    #   AARCH64_URL:
   #      description: 'Arrch64-GCC'
@@ -88,7 +88,7 @@ jobs:
     # Cleanup The Actioecho "With Kernelsu?: ${{ github.event.inputs.WITH_KERNEL_SU }}"ns Workspace Using Custom Composite Run Actions
     
     - name: Cleanup
-     # uses: rokibhasansagar/slimhub_actions@main
+     # uses: rokibhasansagar/YFMARCO_actions@main
       run: rm -rf ${PWD}/*
       # That's it! Now use your normal steps
     - name: Prepare the environment
